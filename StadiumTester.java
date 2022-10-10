@@ -6,13 +6,16 @@ class StadiumTester{
 				Stadium.addStadiumNames("Chinnaswamy");
 			    Stadium.addStadiumNames("Bengaluru football");
 			    Stadium.addStadiumNames("Nadaprabhu Kempegowda");
-			    Stadium.addStadiumNames("Kanteerava indoor");
 			    Stadium.addStadiumNames("Karnataka hockey");
-			    Stadium.addStadiumNames("GKVK");
 				Stadium.getStadiumNames();
+               // Stadium.findStadiumName("Chinnaswamy");
+                Stadium.updateStadiumName("GKVK","Kanteerava");
+			    Stadium.getStadiumNames();
+				
+				Stadium.updateStadiumName("Kanteerava stadium",3);
+			    Stadium.getStadiumNames();
 
 
-			  
 			  
 			  
 			  

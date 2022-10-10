@@ -8,10 +8,15 @@ class BanksTester{
 				Banks.addBankNames("Karnataka");
 				Banks.addBankNames("State bank of india");
 				Banks.addBankNames("Union bank");
-				Banks.addBankNames("Canara");
-				Banks.addBankNames("HDFC");
+				Banks.getBankNames();
+				Banks.updateBankName("HDFC","Dena");
 				Banks.getBankNames();
 				
+				Banks.updateBankName("Canara",4);
+				Banks.getBankNames();
+
+				
+				//Banks.findBankName("Canara");
 				
 				
 				

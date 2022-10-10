@@ -9,9 +9,18 @@ class AirportsTester{
                 Airports.airportNames("Pune");
 				Airports.airportNames("Calicut International");
                 Airports.airportNames("Chhatrapati shivaji International");
-				Airports.airportNames("chennai International");
-                Airports.getAirportNames();
+               // Airports.getAirportName();
 				
+				Airports.updateAirportName("Pune","Chennai International");
+				Airports.getAirportName();
+				
+				Airports.updateAirportName("Goa International",2);
+                Airports.getAirportName();
+
+				
+				
+				
+				Airports.findAirportNames("Pune");
 				
 
 				

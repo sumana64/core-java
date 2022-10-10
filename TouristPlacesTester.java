@@ -7,12 +7,15 @@ class TouristPlacesTester{
 				  TouristPlaces.addTouristPlaces("Coorg");
 				  TouristPlaces.addTouristPlaces("Ladakh");
 				  TouristPlaces.addTouristPlaces("Andaman");
-				  TouristPlaces.addTouristPlaces("Goa");
 				  TouristPlaces.addTouristPlaces("Udaipur");
 				  TouristPlaces.getTouristPlaces();
+				 // TouristPlaces.findTouristPlace("Anadaman");
 
-
-				 
+                  TouristPlaces.updateTouristPlace("Goa","Coorg");
+				  TouristPlaces.getTouristPlaces();
+				  
+				  TouristPlaces.updateTouristPlace("Hyderbad",0);
+                  TouristPlaces.getTouristPlaces();
 				 
 				 
 				 
