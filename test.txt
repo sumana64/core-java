@@ -1,0 +1,240 @@
+1.platform independent
+platform-It is place used to excute something is called as platform
+ex-google is platform we search or find the information
+platform independent-java is called as platform independent where as the c program is called as the platform dependent.
+when we write the c program ->when we write the c program it can be run on only one platform it cannaot be run on the other platform
+for example : c program is written which is called as source code and it is converted into bytecode by compiler later we run on the linux platform
+if we want that program to be run on the platform like windows and mac we cannot run because program is written in the linux platform we cannot run on the other platforms like mac and windows
+in c we have to write different programs to different platform so it is calles as the platform dependent.
+but java is platform independent..if we wrie program in platform we run that program in different platform.
+when we write the progrm in the sourcode it is converted into bytecode with the help of jvm we can run on any platform.bytecose is called as the platform inpendent..if we get the .java classfile we can that pprigram in the various platform.
+
+
+2.difference between the premitive and non prinmitive
+primitive datatypes are of 8 types -> byte,short,int,float,double,boolean,char,long
+non prinmitive datatypes are String, System, ClassName,reference type
+primitive types are declared with lowercase where as the non premitive are defined with uppercase
+primitive types size is fixed where as the non premitive types size are not fixed 
+object is created using the non premitive and where as the variables are declared using the non premitive
+premitive are predefined and the non premitive ared to defined
+
+3.class is blueprint or design which contains the states and behaviour.
+class members are variables,methods,constructor,block
+variable is container used to hold the data which can used in the later stages of the program.
+variable is declared using the datatypes..it is associated with the variable.
+ex int a; -> variable is declared..  syntax for variable datatypes varaibleName = values;
+  a = 10;-> variable is initialized..  i
+there are four types of variable 1.static variable 2.local variable 3.instance variable 4.parameter
+Methods - it is group of colloection of statements combined togethere to do specific task
+syntax for methods-> access modifier non access modifier returntype methodName(parameter)
+                        public static void add(int a,int b){
+						
+						  System.out.println(a+b);
+						}
+constructor -> it special type of the method which as same class name with no return types
+ class Add{
+ 
+          Add(){
+		  
+		  
+		  
+		  }
+         
+ 
+ }
+if we are not declared the constructor in class..java compiler will give default constructor 
+
+6.main method - access modifier non access modifier return type methodName(parameter)
+public static void main(String args[]){
+
+}
+when we execute the program jvm looks for the main method
+
+7.reverse the number
+
+class Reverse{
+
+          int no = 234;
+		  int rev=0;
+		  
+		  public static void main(String args[]){
+		  
+		   while(no!=0){
+		   
+		         rem = no%10;
+		         rev = rev*10+rem;
+				 no = no/10;
+				 
+		   
+		   }
+		
+		}
+         System.out.println(rev);
+
+
+}
+
+
+
+5
+class Array{
+
+          public static void main(String args[]){
+		  
+		  int[] values = {34,78,90,53,34,11,53,15,78,91,8,4,67,11};
+		  
+		  for(int i=0;i<values.length;i++){
+		  
+		  for(int j=i+1;j<values.length;i++){
+		  
+		      System.out.println(values[j]);
+		  }
+		  
+		  
+		  }
+		  
+		  
+	
+	
+	}
+
+6.class Armstrong{
+n
+            public staic void main(String args[]){
+			
+			int num = 165;
+			int sum = 0;
+			int rem =0;
+			 
+			 while(no!=0
+			 {
+			  rem = num%10;
+			  sum = rem*rem*rem+sum;
+			  no = no/10;
+			 
+			 
+			 
+			 
+			 }
+			
+
+          System.out.println(sum);
+		  
+		  }
+		  
+		  
+		  
+		  
+4.class Marks{
+                 static int totalMarks;
+				 static int receivedMarks;
+            
+			public static double percentage(int totalMarks,int receivedMarks){
+			 
+			      precentage = receivedMarks/totalMarks;
+			          
+				return percentage;
+			 
+			 
+			 
+			 }
+			  
+		} 
+
+class MarksTester{
+
+              public static void main(String args[]){
+			  
+			  Marks.totalMarks(100);
+			  Marks.receivedMarks(60);
+			  
+			  double ref = Marks.percentage();
+			  System.out.println(ref);
+			  
+			  
+			  } 
+
+              
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
